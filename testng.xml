@@ -2,7 +2,7 @@
 <suite name="Example Clean Arc Project Tests" parallel="methods" thread-count="10">
     <test name="general">
         <packages>
-            <package name="software.ensemble.ensemble_light.tests"/>
+            <package name="software.ensemble.ensemble_light_kt.tests"/>
         </packages>
     </test>
 </suite>
