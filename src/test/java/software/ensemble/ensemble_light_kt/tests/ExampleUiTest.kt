@@ -49,7 +49,6 @@ class ExampleUiTest : EnsembleCore() {
     @BeforeClass
     fun initEnv() {
         super.getEnv()
-        settings.forEach { println("SET: $it") }
     }
 
     /**
