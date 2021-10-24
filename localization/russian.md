@@ -1,5 +1,7 @@
 # Пример реализации чистой архитектуры в автотестах на Kotlin
 
+[<- back to README](/README.md)
+
 Перед прочтением мануала, пожалуйста, ознакомьтесь
 со статьей ["Чистая архитектура в автотестах"](http://blog.niiqa.net).
 
@@ -44,7 +46,7 @@ private var response: T? = null
 * **Пакет:** net.niiqa.clean_arc_example_java.tests
 
 Пример реализации тестов API и UI. В данном примере в качестве API клиента используется 
-**_RestAssured_**, а для UI тесты основаны на Selenium Web Driver.
+**_RestAssured_**, а UI тесты основаны на Selenium Web Driver.
 
 В тестовый класс инжектится TDO (из контекста):
 ```kotlin

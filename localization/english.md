@@ -1,5 +1,7 @@
 # An example of the implementation of a clean architecture in autotests on Kotlin
 
+[<- back to README](/README.md)
+
 Please, read ["Clean architecture in autotests"](http://blog.niiqa.net/clean-arc-in-tests)
 before.
 
