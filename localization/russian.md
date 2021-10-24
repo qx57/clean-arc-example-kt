@@ -6,7 +6,7 @@
 ## Base
 Требования:
 - Java 11
-***
+
 
 ## Test Definition Objects (TDO)
 
@@ -34,7 +34,7 @@ private var response: T? = null
 В директории **_src/main/resources/contracts_** находятся используемые для инициализации 
 клиента для тестов API (и для проверки контрактов) Swagger-файлы.
 
-***
+
 
 ## Test cases
 
@@ -78,7 +78,7 @@ bind(object: TypeLiteral<BaseClient<Response>>() {}).toInstance(BaseClientRa())
 Здесь находится файл **test_settings.properties** содержащий все необходимые для проведения
 тестов настройки и данные. Файл считывается при помощи модуля **_Environment_**, после чего 
 переменные окружения доступны в тесте в параметре **_settings_** (см. **Custom Framework**).
-***
+
 
 ## Custom Framework
 
@@ -127,7 +127,7 @@ open class FrameworkCore() {
     // Framework code
 }
 ```
-***
+
 
 ## Integrations
 

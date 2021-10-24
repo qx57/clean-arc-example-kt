@@ -10,6 +10,6 @@ Choose laguage, please:
 [Russian](localization/russian.md)
 
 
-***
+
 ### Maintainers
 - [Denis Kudriashov](https://github.com/qx57)

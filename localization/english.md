@@ -6,7 +6,6 @@ before.
 ## Base
 Requirements:
 - Java 11
-***
 
 ## Test Definition Objects (TDO)
 
@@ -34,7 +33,7 @@ and/or web driver implementations are placed in context in tests (see **Test Cas
 The directory **_src/main/resources/contracts_** contains Swagger files used for 
 initializing the client and for API tests (and for checking contracts).
 
-***
+
 
 ## Test cases
 
@@ -81,7 +80,7 @@ Here is the file **test_settings.properties** containing all the settings and da
 for conducting tests. The file is read using the **_environment_** module, after which the 
 environment variables are available in the test in the **_settings_** parameter 
 (see **Custom Framework**).
-***
+
 
 ## Custom Framework
 
@@ -130,7 +129,7 @@ open class FrameworkCore() {
     // Framework code
 }
 ```
-***
+
 
 ## Integrations
 
