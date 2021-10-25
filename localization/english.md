@@ -7,6 +7,17 @@ before.
 ## Base
 Requirements:
 - Java 11
+- Selenium Web Driver. For correct example work you need download the **_chromedriver_** 
+  (from [there](https://chromedriver.chromium.org/downloads)) and change driver settings in
+  **_UiWebDriver.kt_** (line 22):
+  ```kotlin
+    init {
+    System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe")
+    driver = ChromeDriver()
+    driver?.manage()?.window()?.maximize()
+    driver?.manage()?.timeouts()?.implicitlyWait(Duration.ofSeconds(10))
+    }
+  ```
 
 ## Test Definition Objects (TDO)
 

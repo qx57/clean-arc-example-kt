@@ -7,6 +7,17 @@
 ## Base
 Требования:
 - Java 11
+- Selenium Web Driver. Для корректной работы вам потребуется файл **_chromedriver_** 
+  (скачать можно [тут](https://chromedriver.chromium.org/downloads)). Измените настройки 
+  в файле **_UiWebDriver.kt_** (строка 22):
+  ```kotlin
+    init {
+    System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe")
+    driver = ChromeDriver()
+    driver?.manage()?.window()?.maximize()
+    driver?.manage()?.timeouts()?.implicitlyWait(Duration.ofSeconds(10))
+    }
+  ```
 
 
 ## Test Definition Objects (TDO)
